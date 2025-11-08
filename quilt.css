@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+  background-color: #f5ba95;
+    font-family: 'Titillium Web', sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 15pt;
+}
+
+#submit {
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: #c04c1d;
+  color: white;
+}
+
+fieldset {
+  border-color: black;
+}
+
+legend {
+  font-size: 15pt;
+  
+}
+
+img {
+  border: 10px solid white;
+}
+
+iframe {
+  border: 10px solid white;
+  
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #c04c1d;
+   
+}
+
+nav li {
+display: inline-block;
+  line-height: 1.8em;
+ }
+
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+
+}
+
+nav ul li a {
+  font-size: 15pt;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+  h1 {
+    font-weght: bold;
+    font-size: 35pt;
+    padding-top: 40pt;
+    padding-left: 15px;
+    border-left: 10px solid black;
+    
+  }
+
+
+.flex-container {
+  display: flex;
+  inline-size: 1500px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container {
+    display: flex;
+flex-direction: column;
+width: 100%;
+      }
